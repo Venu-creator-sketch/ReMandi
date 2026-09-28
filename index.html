@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Re Mandi - Livestock Marketplace</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7f2;color:#17351f}
+header{background:#176b3a;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin-left:18px}
+.hero{padding:60px 6%;text-align:center;background:#e4f3e7}
+.hero h1{font-size:42px;margin:10px 0}
+.hero p{font-size:18px}
+.btn{display:inline-block;background:#f39c12;color:white;padding:13px 24px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px}
+section{padding:40px 6%}
+h2{text-align:center;font-size:30px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:white;padding:25px;text-align:center;border-radius:14px;box-shadow:0 3px 12px #0001}
+.icon{font-size:50px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{background:white;padding:25px;border-radius:12px}
+footer{background:#123b24;color:white;text-align:center;padding:25px}
+@media(max-width:700px){
+.cards,.features{grid-template-columns:1fr 1fr}
+.hero h1{font-size:32px}
+nav{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🐑 Re Mandi</div>
+<nav>
+<a href="#animals">Animals</a>
+<a href="#features">Features</a>
+<a href="#join">Join</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>India's Livestock Marketplace</h1>
+<p>Buy and sell sheep, goats, poultry and cattle near you.</p>
+<a class="btn" href="#animals">Browse Animals</a>
+<a class="btn" href="#join">Join Re Mandi</a>
+</div>
+
+<section id="animals">
+<h2>Browse Livestock</h2>
+<div class="cards">
+<div class="card"><div class="icon">🐑</div><h3>Sheep</h3><p>Find sheep from nearby sellers.</p></div>
+<div class="card"><div class="icon">🐐</div><h3>Goats</h3><p>Buy and sell goats easily.</p></div>
+<div class="card"><div class="icon">🐔</div><h3>Poultry</h3><p>Discover poultry listings.</p></div>
+<div class="card"><div class="icon">🐄</div><h3>Cattle</h3><p>Connect with cattle sellers.</p></div>
+</div>
+</section>
+
+<section id="features">
+<h2>Why Re Mandi?</h2>
+<div class="features">
+<div class="feature"><h3>📍 Nearby Listings</h3><p>Find livestock available around your location.</p></div>
+<div class="feature"><h3>💬 Buyer & Seller Chat</h3><p>Connect directly with buyers and sellers.</p></div>
+<div class="feature"><h3>📷 Photo & Video</h3><p>Show animals through photos and videos.</p></div>
+<div class="feature"><h3>🔐 Secure Login</h3><p>OTP-based access for users.</p></div>
+<div class="feature"><h3>🩺 Animal Support</h3><p>Get livestock health and veterinary support.</p></div>
+<div class="feature"><h3>💳 Easy Payments</h3><p>Payment integration can be added.</p></div>
+</div>
+</section>
+
+<section id="join" class="hero">
+<h2>Join Re Mandi</h2>
+<p>Our livestock marketplace is being built for buyers and sellers across India.</p>
+<a class="btn" href="mailto:remandi.contact@gmail.com">Contact Re Mandi</a>
+</section>
+
+<footer>
+<p>© 2026 Re Mandi. Livestock Marketplace.</p>
+<p>Sheep • Goats • Poultry • Cattle</p>
+</footer>
+
+</body>
+</html>
